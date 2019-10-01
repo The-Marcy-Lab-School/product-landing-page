@@ -1,0 +1,157 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*
+    HEADER
+*/
+
+header {
+    background-color: #163798;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 10px solid #001C55;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #001C55;
+}
+
+nav li:nth-child(2) {
+    margin:0 8px;
+}
+
+/*
+    MAIN 
+*/
+
+main {
+    
+}
+
+/*
+    MAIN FIELDSET
+*/
+
+.singup-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.singup-wrapper li:nth-child(2) {
+    padding: 15px 0;
+}
+
+fieldset {
+    border: none; 
+}
+
+fieldset label {
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+fieldset input {
+    padding: 4px;
+    padding-right: 50px;
+}
+
+fieldset li:last-child button {
+    border: none;
+    background-color: #ECA400;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 22px;
+}
+
+/*
+    SALES PITCH ARTICLE
+*/
+
+.selling-points {
+    margin: 0 auto;
+}
+
+.sell-pitch {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "icon pitch-title" 
+    "icon pitch";
+    grid-column-gap: 70px;
+}
+
+.sell-pitch:nth-child(2) {
+    margin: 50px 0;
+}
+
+.icon {
+    grid-area: icon;
+}
+
+.fas {
+    width: 54px;
+}
+
+.pitch-title {
+    grid-area: pitch-title;
+}
+
+.pitch {
+    grid-area: pitch
+}
+
+h2 {
+    margin: 0;
+}
+
+.selling-points p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: yellow;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
