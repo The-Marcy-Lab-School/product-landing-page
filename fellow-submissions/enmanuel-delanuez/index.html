@@ -5,100 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/00a6176ece.js" crossorigin="anonymous"></script>
     <title>Lab: Product Landing Page</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1><span class="fas fa-anchor"></span> Original Product</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How It Works</a></li>
-                <li><a href="#">Pricing</a></li>
+    <div class="page">
+        <header>
+            <div class="logo">
+                <h1><span class="fas fa-anchor"></span> Fly Boats</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-work">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <fieldset>
+                <ul class="signup-wrapper">
+                    <li>
+                        <label for="sing-up-email">Handcrafted, eco-friendly masterpieces</label>
+                    </li>
+                    <li>
+                        <input type="email" name="email" id="sing-up-email" placeholder="Enter your email address"/>
+                    </li>
+                    <li>
+                        <button>GET STARTED</button>
+                    </li>
+                </ul>
+            </fieldset>
+            
+            <article class="selling-points" id="features">
+                <section class="sell-pitch">
+                    <div class="icon-one icon"><i class="fas fa-tools fa-3x"></i></div>
+                    <section class="pitch-ctnt">
+                        <h2 class="pitch-title">Free, professional Assembly</h2>
+                        <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
+                    </section>
+                </section>
+                <section class="sell-pitch">
+                    <div class="icon-two icon"><i class="fas fa-map-marked-alt fa-3x"></i></div>
+                    <section class="pitch-ctnt">
+                        <h2 class="pitch-title">Advanced Positioning System</h2>
+                        <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
+                    </section>
+                </section>
+                <section class="sell-pitch">
+                    <div class="icon-three icon"><i class="fas fa-recycle fa-3x"></i></div>
+                    <section class="pitch-ctnt">
+                        <h2 class="pitch-title">Recycled Materials</h2>
+                        <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
+                    </section>
+                </section>
+            </article>
+            <article class="feature-video" id="how-it-work">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article class="tier-list" id="pricing">
+                <section class="tier-one tier">
+                    <h1 class="product-name">Tier 1 Product</h1>
+                    <h2 class="price">$111</h2>
+                    <ul class="why-buy">
+                        <li>It is good</li>
+                        <li>It is fantastic</li>
+                        <li>You need this in your life</li>
+                        <li>Thank you</li>
+                    </ul>
+                    <button class="tier-select" type="button">SELECT</button>
+                </section>
+                <section class="tier-two tier">
+                    <h1 class="product-name">Tier 2 Product</h1>
+                    <h2 class="price">$222</h2>
+                    <ul class="why-buy">
+                        <li>It is better</li>
+                        <li>It is fantastic</li>
+                        <li>You need this in your life</li>
+                        <li>Thank you</li>
+                    </ul>
+                    <button class="tier-select" type="button">SELECT</button>
+                </section>
+                <section class="tier-three tier">
+                    <h1 class="product-name">Tier 3 Product</h1>
+                    <h2 class="price">$333</h2>
+                    <ul class="why-buy">
+                        <li>It is the best</li>
+                        <li>It is fantastic</li>
+                        <li>You need this in your life</li>
+                        <li>Thank you</li>
+                    </ul>
+                    <button class="tier-select" type="button">SELECT</button>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <ul class="extra-links">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <fieldset>
-            <ul class="singup-wrapper">
-                <li>
-                    <label for="sing-up-email">Handcrafted, eco-friendly masterpieces</label>
-                </li>
-                <li>
-                    <input type="email" name="email" id="sing-up-email" placeholder="Enter your email address"/>
-                </li>
-                <li>
-                    <button>GET STARTED</button>
-                </li>
-            </ul>
-        </fieldset>
-        
-        <article class="selling-points">
-            <section class="sell-pitch">
-                <div class="icon-one icon"><i class="fas fa-tools fa-3x"></i></div>
-                <h2 class="pitch-title">Free, professional Assembly</h2>
-                <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
-            </section>
-            <section class="sell-pitch">
-                <div class="icon-two icon"><i class="fas fa-map-marked-alt fa-3x"></i></div>
-                <h2 class="pitch-title">Advanced Positioning System</h2>
-                <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
-            </section>
-            <section class="sell-pitch">
-                <div class="icon-three icon"><i class="fas fa-recycle fa-3x"></i></div>
-                <h2 class="pitch-title">Recycled Materials</h2>
-                <p class="pitch">Lorem ipsum more latin and then even more. You know? Just a lot until I can't no more.</p>
-            </section>
-        </article>
-        <article class="feature-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-        <article class="tier-list">
-            <section class="tier-one tier">
-                <h1 class="product-name">Tier 1 Product</h1>
-                <h2 class="price">$111</h2>
-                <ul class="why-buy">
-                    <li>It is good</li>
-                    <li>It is fantastic</li>
-                    <li>You need this in your life</li>
-                    <li>Thank you</li>
-                </ul>
-                <button class="tier-select" type="button">SELECT</button>
-            </section>
-            <section class="tier-two tier">
-                <h1 class="product-name">Tier 2 Product</h1>
-                <h2 class="price">$222</h2>
-                <ul class="why-buy">
-                    <li>It is good</li>
-                    <li>It is fantastic</li>
-                    <li>You need this in your life</li>
-                    <li>Thank you</li>
-                </ul>
-                <button class="tier-select" type="button">SELECT</button>
-            </section>
-            <section class="tier-three tier">
-                <h1 class="product-name">Tier 3 Product</h1>
-                <h2 class="price">$333</h2>
-                <ul class="why-buy">
-                    <li>It is good</li>
-                    <li>It is fantastic</li>
-                    <li>You need this in your life</li>
-                    <li>Thank you</li>
-                </ul>
-                <button class="tier-select" type="button">SELECT</button>
-            </section>
-        </article>
-    </main>
-    <footer>
-        <ul class="extra-links">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <p class="copyrights">Copyright 2016, Original Products</p>
-    </footer>
+            <p class="copyrights">Copyright 2016, Original Products</p>
+        </footer>
+    </div>
 </body>
 </html>

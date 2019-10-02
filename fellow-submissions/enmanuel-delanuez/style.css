@@ -1,85 +1,83 @@
-html {
-    font-size: 100%;
-}
-
-body {
-    font-family: sans-serif;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*
-    HEADER
-*/
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER*/
 
 header {
     background-color: #163798;
     color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    border-bottom: 10px solid #001C55;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100vw;
+    border-bottom: 6px solid #001C55;
+    position: fixed;
+    width: 100%;
+}
+
+main {padding-top: 165px}
+
+header h1 {
+    margin: 8px 0;
+}
+header a {
+    color: white;
 }
 
 nav {
-    display: flex;
+    width: 90vw;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
+    background-color: #001C55;
     list-style: none;
-    align-items: stretch;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5px 0;
 }
 
 nav li {
-    display: flex;
-    align-items: center;
-    padding: 0 40px;
+    padding: 6px 30px;
+    width: 50vw;
+    text-align: center;
     background-color: #001C55;
 }
 
 nav li:nth-child(2) {
-    margin:0 8px;
+    margin: 1.5px auto;
 }
 
-/*
-    MAIN 
-*/
 
-main {
-    
-}
-
-/*
-    MAIN FIELDSET
-*/
-
-.singup-wrapper {
+/*SIGN UP*/
+.signup-wrapper{
+    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    list-style: none;
 }
 
-.singup-wrapper li:nth-child(2) {
-    padding: 15px 0;
+.signup-wrapper li:first-child {
+    margin: 2px 0;
+}
+
+.signup-wrapper li {
+    padding: 5px 0;
 }
 
 fieldset {
-    border: none; 
-}
-
-fieldset label {
-    font-size: 1.375rem;
-    font-weight: bold;
-}
-
-fieldset input {
-    padding: 4px;
-    padding-right: 50px;
+    border: none;
 }
 
 fieldset li:last-child button {
@@ -90,68 +88,207 @@ fieldset li:last-child button {
     padding: 6px 22px;
 }
 
-/*
-    SALES PITCH ARTICLE
-*/
+/*SELLING POINTS*/
+
+.icon {
+    display: none;
+}
 
 .selling-points {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
 }
 
 .sell-pitch {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
-    grid-template-areas: 
-    "icon pitch-title" 
-    "icon pitch";
-    grid-column-gap: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.sell-pitch:nth-child(2) {
-    margin: 50px 0;
+.sell-pitch:nth-of-type(2) {
+    margin: 20px 0;
 }
 
-.icon {
-    grid-area: icon;
+.pitch-ctnt {
+    text-align: center;
 }
 
-.fas {
-    width: 54px;
+.tier button {
+    border: none;
+    background-color: #ECA400;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 22px;
 }
 
-.pitch-title {
-    grid-area: pitch-title;
+/*VIDEO*/
+
+.feature-video {
+    overflow: auto;
+    margin: 25px auto;
+    text-align: center;
+    max-width: 90vw;
 }
 
-.pitch {
-    grid-area: pitch
+/*TIER BOXES*/
+
+.tier-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h2 {
-    margin: 0;
+.tier {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    max-width: 300px;
+    border-radius: 5px;
 }
 
-.selling-points p {
-    margin: 0;
+.tier:nth-of-type(2) {
+    margin: 10px auto;
 }
 
+.tier h1 {
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 4px;
+}
 
+.tier h2 {
+    margin-top: 10px;
+}
 
+.tier ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
 
+.tier li {
+    padding: 10px 0;
+}
 
+.tier button {
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
+/*FOOTER*/
 
 footer {
-    background-color: yellow;
+    background-color: grey;
+    margin-top: 10px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyrights {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*FOR TABLETS*/
+
+@media screen and (min-width: 768px) {
+    
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 0;
+    }
+    
+    nav {
+        max-width: 50vw;
+    }
+    
+    nav ul {
+        flex-direction: row;
+    }
+    
+    nav li {
+        padding: 20px 10px;
+    }
+    
+    .icon {
+        display: inline-block;
+        padding: 5px 0;
+    }
+    
+    .tier-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 10px;
+    }
+    
+    .tier {
+        min-width: 270px;
+        max-width: 270px;
+    }
+    
+    .tier:nth-of-type(2) {
+        margin: 10px 0;
+    }
+    
+    fieldset label {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    
+    main {padding-top: 80px}
+}
+
+/*FOR LAPTOPS*/
+
+@media screen and (min-width: 1024px) {
+    
+    .sell-pitch:nth-of-type(2) {
+    margin: 20px auto;
+    }
+    
+    .sell-pitch {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icon {
+        margin-right: 30px;
+    }
+    
+    .pitch-ctnt {
+        text-align: left;
+    }
+    
+    header h1 {
+        margin-right: 40px;
+    }
+    
+    nav li {
+        width: auto;
+    }
+    
+    nav li:nth-child(2) {
+        margin: 1.5px 20px;
+    }
+    
+    nav {
+        width: auto;
+    }
+
 }
