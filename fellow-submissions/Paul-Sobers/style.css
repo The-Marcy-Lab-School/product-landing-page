@@ -5,10 +5,19 @@ a{
 nav ul{
   margin:0;
   list-style:none;
+  display:flex;
 }
 
-
-
+nav{
+  display:flex;
+  justify-content:space-between;
+}
+nav div{
+  display: flex;
+}
+header{
+  background-color: red;
+}
 
 h1{
   margin:0;
