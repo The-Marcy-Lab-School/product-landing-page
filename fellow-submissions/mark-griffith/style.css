@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+main{
+    display:grid;
+    grid-template-rows:1fr auto;
+    grid-template-columns:10% 3fr 3fr 3fr 10%;
+    grid-template-areas: 
+    "header header header header header"
+    ". jumbo jumbo jumbo ."
+    ". quality quality quality ."
+    ". cards cards cards ."
+    "footer footer footer footer footer";
+}
+header{
+    grid-area:header;
+}
+.top{
+    display:flex;
+    position: fixed;
+    min-height: 75px;
+    padding: 0px 20px;
+    background-color: #eee;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+}
+nav ul{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 60vw;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jumbo{
+    grid-area:jumbo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 150px;
+}
+.quality{
+    grid-area:quality;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+.content{
+    margin-bottom:20px;
+}
+ .img{
+    display:none;
+    width:37px;
+    height:37px;
+}
+.cards{
+    grid-area:cards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+nav > ul{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 300px;
+    margin: 10px;
+}
+.product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.product ol{
+    margin:15px 0px;
+}
+.jumbo .btn{
+    margin:15px 0px;
+    height:30px;
+    border:0;
+}
+.box{
+    max-width: 275;
+    width: 100%;
+    padding:5px;
+}
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: #f1c40f;
+    cursor: pointer;
+}
+.product > button {
+    border: 0;
+    margin: 15px 0;
+    font-weight: 400;
+}
+.product > h2 {
+    margin-top: 15px;
+}
+.product > ol > li {
+    padding: 5px 0;
+}
+footer{
+    grid-area:footer;
+    display:flex;
+    background-color: #ddd;
+    padding: 20px;
+    flex-direction:column;
+    margin-top: 30px;
+}
+footer ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-bottom:0;
+}
+footer ul li{
+    margin-right:20px;
+}
+footer p{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:5px;
+    color:#444;
+}
+.vid{
+    grid-area:quality;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+}
+.vid iframe{
+    display:flex;
+    flex-grow:1;
+    max-width:300px;
+    max-height:300px;
+}
+@media only screen and (min-width: 768px){
+    nav ul{
+        display:flex;
+        flex-direction:row;
+    }
+    nav ul li{
+        margin-right:20px;
+    }
+    .jumbo{
+        margin-top:80px;
+    }
+    .top{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    header{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .logo {
+        width: 100px;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+    }
+    .img{
+        display:flex;
+    }
+    figure{
+        display:flex;
+        width:100px;
+        justify-content: center;
+    }
+    figure .img{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 37px;
+        width: 37px;
+    }
+    .content{
+        display:flex;
+        justify-content:space-around;
+        padding-top:30px;
+        
+    }
+    .desc{
+        display:flex;
+        flex-direction:column;
+        flex-basis:70%;
+        height: 125px;
+        align-content: center;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .cards{
+        display:flex;
+        flex-direction:row;
+    }
+    footer{
+        margin-left:10%;
+        margin-right:10%;
+    }
+    nav ul li{
+        margin-right:80px;
+    }
+}
