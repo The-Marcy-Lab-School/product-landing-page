@@ -48,7 +48,15 @@ button {
   margin: 10px auto;
   display: block;
   background-color: rgb(241,196,15);
+  max-width:70px;
+  width:100%;
+  border:0;
+  height:30px;
 } 
+.started{
+  font-weight:bold;
+  max-width:150px;
+}
 
 main{
   display:flex;
@@ -113,12 +121,15 @@ ol{
 
 footer{
   background-color: rgb(221,221,221);
+  margin-top: 30px;
+  padding: 20px;
 }
 
 footer ul{
   display:flex;
   list-style: none;
   justify-content:flex-end;
+  margin-bottom: 0;
 }
 
 p{
@@ -126,12 +137,18 @@ p{
   justify-content:flex-end;
   margin: 0 auto;
 }
+
 h2 >  span{
-  display:none;
-  color:blue;
+  display: none !important;
 }
 
-span{
-  background-color: red;
-  display: none;
+footer > p{
+  font-size:0.9em;
+  color:#444;
+}
+
+/*This is for an ipad*/
+@media only screen and (min-width:768px){
+  
+  
 }
