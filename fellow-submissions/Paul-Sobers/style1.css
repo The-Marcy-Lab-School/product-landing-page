@@ -1,14 +1,17 @@
+
+
 html{
   box-sizing:border-box;
 }
 *,*:after, *:before{
   box-sizing: border-box;
 }
-
+/* Mobile First Prototype */
 
 a{
   text-decoration: none;
   color:black;
+  padding: 0 10px;
 }
 
 
@@ -21,6 +24,7 @@ nav ul{
 h1{
   margin:0;
 }
+
 header{
   display:flex;
   flex-direction:column;
@@ -41,12 +45,12 @@ input[id="name"]{
   width:100%;
 }
 button {
- margin: 10px auto;
+  margin: 10px auto;
   display: block;
+  background-color: rgb(241,196,15);
 } 
 
 main{
-  background-color: red;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -56,4 +60,78 @@ main{
   display: flex;
   flex-direction:column;
   align-items:center;
+  height:150px;
+}
+
+main p{
+  text-align: center;
+}
+
+#how{
+  max-width:560px;
+  width:100%;
+}
+
+iframe{
+  width:100%;
+}
+
+.pricing{
+  margin-top:60px;
+}
+
+.first{
+  text-align: center;
+  border:1px solid black;
+  margin-bottom: 10px;
+  width:300px;
+}
+
+.second{
+  text-align: center;
+  border:1px solid black;
+  margin-bottom: 10px;
+}
+.third{
+  border:1px solid black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ol li{
+  list-style:none;
+  padding:5px;
+}
+ol{
+  padding: 0;
+}
+
+.child{
+  background-color: rgb(221,221,221);
+  padding: 15px 0;
+}
+
+footer{
+  background-color: rgb(221,221,221);
+}
+
+footer ul{
+  display:flex;
+  list-style: none;
+  justify-content:flex-end;
+}
+
+p{
+  display:flex;
+  justify-content:flex-end;
+  margin: 0 auto;
+}
+h2 >  span{
+  display:none;
+  color:blue;
+}
+
+span{
+  background-color: red;
+  display: none;
 }
