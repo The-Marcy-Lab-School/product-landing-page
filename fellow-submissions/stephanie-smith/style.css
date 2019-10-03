@@ -206,11 +206,13 @@ p {
   margin-left: 33px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   .icon {
     display: none;
   }
-  
+}
+
+@media screen and (min-width: 767px) {
   .nav {
     display: flex;
     flex-direction: row;
