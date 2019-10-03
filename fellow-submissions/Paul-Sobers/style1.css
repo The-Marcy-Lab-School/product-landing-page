@@ -99,11 +99,13 @@ iframe{
   text-align: center;
   border:1px solid black;
   margin-bottom: 10px;
+  width:300px;
 }
 .third{
   border:1px solid black;
   text-align: center;
   margin-bottom: 10px;
+  width:300px;
 }
 
 ol li{
@@ -140,14 +142,13 @@ p{
 
 h2 >  span{
   display: none !important;
-  /*visibility: hidden;*/
 }
 
 footer > p{
   font-size:0.9em;
   color:#444;
 }
-
+/*Fix text align and also icon*/
 /*This is for an ipad*/
 @media only screen and (min-width:768px){
    nav ul{
@@ -160,6 +161,19 @@ footer > p{
   }
   
   h2 > span{
-   /*visibility: visible;*/
+   display: inline-block !important;
+  }
+}
+
+@media only screen and (min-width:1020px){
+  .pricing{
+    display:flex;
+    flex-direction:row;
+  }
+  .first{
+    margin-right:10px;
+  }
+  .second{
+    margin-right: 10px;
   }
 }
