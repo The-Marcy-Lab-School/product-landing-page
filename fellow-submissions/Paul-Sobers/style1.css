@@ -140,6 +140,7 @@ p{
 
 h2 >  span{
   display: none !important;
+  /*visibility: hidden;*/
 }
 
 footer > p{
@@ -149,6 +150,16 @@ footer > p{
 
 /*This is for an ipad*/
 @media only screen and (min-width:768px){
+   nav ul{
+    display: flex;
+  }
+  header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
   
-  
+  h2 > span{
+   /*visibility: visible;*/
+  }
 }
