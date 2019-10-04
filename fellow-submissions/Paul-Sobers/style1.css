@@ -66,14 +66,18 @@ main{
 
 .middle{
   display: flex;
-  flex-direction:column;
-  align-items:center;
   height:150px;
+  width:100%;
 }
-
-main p{
+.des{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
+
+
 
 #how{
   max-width:560px;
@@ -86,6 +90,11 @@ iframe{
 
 .pricing{
   margin-top:60px;
+  display: flex;
+  /*justify-content:center;*/
+  flex-direction:column;
+  /*align-items:center;*/
+  
 }
 
 .first{
@@ -137,11 +146,11 @@ footer ul{
 p{
   display:flex;
   justify-content:flex-end;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
-h2 >  span{
-  display: none !important;
+div > span{
+  visibility:hidden; 
 }
 
 footer > p{
@@ -160,8 +169,38 @@ footer > p{
     justify-content:space-around;
   }
   
-  h2 > span{
-   display: inline-block !important;
+  
+  .middle{
+    display:flex;
+  }
+  div > span{
+    visibility: visible;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20%;
+  }
+  .des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    align-items: flex-start;
+    text-align: start;
+    width:80%;
+  }
+  h2{
+    margin:0;
+  }
+  .top-middle > h2{
+    margin:10px;
+  }
+.icon span{
+    font-size: 3em;
   }
 }
 
@@ -169,6 +208,7 @@ footer > p{
   .pricing{
     display:flex;
     flex-direction:row;
+    justify-content:center;
   }
   .first{
     margin-right:10px;
@@ -176,4 +216,25 @@ footer > p{
   .second{
     margin-right: 10px;
   }
+  
+  .des{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    align-items: flex-start;
+    text-align: start;
+    width: 80%;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20%;
+}
+.icon span{
+    font-size: 3em;
+  }
+  
 }
