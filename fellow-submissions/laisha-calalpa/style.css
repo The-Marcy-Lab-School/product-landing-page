@@ -41,3 +41,8 @@ fieldset{
     display: flex;
     flex-direction: column;
 }
+
+legend{
+    display: flex;
+    justify-content: center;
+}
