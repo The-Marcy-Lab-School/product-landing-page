@@ -18,7 +18,7 @@ body{
 
 header{
   background-color: #eeeeee;
-  height: 190px;
+  height: 230px;
   width: 100%;
   position: fixed;
   right: 0px;
@@ -76,7 +76,7 @@ a:active {
 }
 
 body section:first-of-type{
-  margin-top: 190px;
+  margin-top: 230px;
   background-color: #eeeeee;
   height: 200px;
   display: grid;
@@ -206,6 +206,13 @@ h6{
   display: none;
 }
 
+img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+
 /* Mobile code ends here*/
 
 @media only screen and (min-width: 768px) {
@@ -279,11 +286,58 @@ h6{
     height: 55px;
   }
   
+  img{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+  }
+  
 }
 
 /* Tablet code ends here*/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1352px) {
+  .plans{
+    display: flex;
+  }
   
+  header{
+    height: 70px;
+  }
   
+  .web-title{
+    margin-top: 8px;
+   margin-right: 700px;
+  }
+  
+  iframe{
+    height: 444px;
+    width: 50%;
+  }
+  
+  .statment-section{
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+  
+  article{
+    height: 450px;
+    width: 400px;
+  }
+  
+  article > p{
+    margin-bottom: 100px;
+  }
+  
+  footer{
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  img{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 8px;
+  }
 }
