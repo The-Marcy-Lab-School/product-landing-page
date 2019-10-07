@@ -7,42 +7,118 @@ html{
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: rgb(238,238,238);
+    padding: 130px 0 0 0 ;
 }
 
 header{
-    display:flex;
-    flex-direction: column;
-    background-color: lightgreen;
+    background-color: rgb(238,238,238);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 10px;
 }
 
 img{
-    width: 100%;
-    height: 50px;
-    padding-right: 20px;
+    width: 330px;
+    height: 35px;
+    padding-right: 20px
+    text-align:center;
 }
 
-ul{
+figure{
+    display: block;
+    margin: auto;
+}
+
+nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-around; 
 }
-
 li{
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 0;
+    border: 0;
+    width: 300px;
+    height: 20px;
+    margin: 20px 0;
 }
 
 fieldset{
-    border: none;
+    text-align: center;
+    border: 0;
     padding: 0;
     margin: 0;
+}
+
+.email{
     display: flex;
     flex-direction: column;
 }
 
-legend{
+.email button{
+    background-color: rgb(241,196,15);
+    font-weight: bold;
+    width: 152px;
+    height:30px;
+    align-self: center;
+    padding: 0;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+button:hover{
+    color: purple;
+}
+
+.points p{
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+
+.card{
+    border: 1px solid black;
+    flex-direction: column;    
+    width: 290px;
+    height: 300px;
+    margin: 20px auto; /* container would not align if not for this */ 
+    text-align: center;
+}
+.card h4{
+    background-color:rgb( 221,221,221);
+    margin: 0;
+    height: 50px;
     display: flex;
     justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+
+.card button{
+    background-color: rgb(241,196,15);
+    width: 152px;
+    height:30px;
+    align-self: center;
+    padding: 0;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+ 
+
+
+
+h2{
+    text-align: center;
+    margin:0;
 }
