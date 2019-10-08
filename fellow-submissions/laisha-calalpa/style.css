@@ -40,7 +40,7 @@ nav ul{
     flex-direction: column;
     justify-content: space-around; 
 }
-li{
+nav ul li{
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
@@ -85,6 +85,15 @@ button:hover{
     margin: 0 0 80px 0;
 }
 
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin:0;
+}
+
 .card{
     border: 1px solid black;
     flex-direction: column;    
@@ -93,6 +102,7 @@ button:hover{
     margin: 20px auto; /* container would not align if not for this */ 
     text-align: center;
 }
+
 .card h4{
     background-color:rgb( 221,221,221);
     margin: 0;
@@ -103,22 +113,44 @@ button:hover{
     align-items: center;
 }
 
-
 .card button{
     background-color: rgb(241,196,15);
-    width: 152px;
-    height:30px;
+    border: none;
+    width: 90px;
+    height:35px;
     align-self: center;
     padding: 0;
     font-size: 15px;
     margin-bottom: 70px;
 }
 
- 
+footer{
+    margin-top: 50px;
+    background-color:rgb( 221,221,221);
+    height: 70px;
+}
 
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
 
+footer li, footer p{
+    padding-right: 20px;
+}
 
-h2{
-    text-align: center;
-    margin:0;
+footer li{
+    padding-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: rgb(68,68,68);
+    padding-top: 3px;
 }
