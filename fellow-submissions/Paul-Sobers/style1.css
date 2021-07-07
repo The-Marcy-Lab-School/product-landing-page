@@ -1,0 +1,240 @@
+
+
+html{
+  box-sizing:border-box;
+}
+*,*:after, *:before{
+  box-sizing: border-box;
+}
+/* Mobile First Prototype */
+
+a{
+  text-decoration: none;
+  color:black;
+  padding: 0 10px;
+}
+
+
+nav ul{
+  margin:0;
+  list-style:none;
+  padding:0;
+}
+
+h1{
+  margin:0;
+}
+
+header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  line-height: 1.6;
+}
+fieldset{
+  border:none;
+}
+
+.top-middle{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+input[id="name"]{
+  width:100%;
+}
+button {
+  margin: 10px auto;
+  display: block;
+  background-color: rgb(241,196,15);
+  max-width:70px;
+  width:100%;
+  border:0;
+  height:30px;
+} 
+.started{
+  font-weight:bold;
+  max-width:150px;
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.middle{
+  display: flex;
+  height:150px;
+  width:100%;
+}
+.des{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+#how{
+  max-width:560px;
+  width:100%;
+}
+
+iframe{
+  width:100%;
+}
+
+.pricing{
+  margin-top:60px;
+  display: flex;
+  /*justify-content:center;*/
+  flex-direction:column;
+  /*align-items:center;*/
+  
+}
+
+.first{
+  text-align: center;
+  border:1px solid black;
+  margin-bottom: 10px;
+  width:300px;
+}
+
+.second{
+  text-align: center;
+  border:1px solid black;
+  margin-bottom: 10px;
+  width:300px;
+}
+.third{
+  border:1px solid black;
+  text-align: center;
+  margin-bottom: 10px;
+  width:300px;
+}
+
+ol li{
+  list-style:none;
+  padding:5px;
+}
+ol{
+  padding: 0;
+}
+
+.child{
+  background-color: rgb(221,221,221);
+  padding: 15px 0;
+}
+
+footer{
+  background-color: rgb(221,221,221);
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer ul{
+  display:flex;
+  list-style: none;
+  justify-content:flex-end;
+  margin-bottom: 0;
+}
+
+p{
+  display:flex;
+  justify-content:flex-end;
+  /*margin: 0 auto;*/
+}
+
+div > span{
+  visibility:hidden; 
+}
+
+footer > p{
+  font-size:0.9em;
+  color:#444;
+}
+/*Fix text align and also icon*/
+/*This is for an ipad*/
+@media only screen and (min-width:768px){
+   nav ul{
+    display: flex;
+  }
+  header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  
+  
+  .middle{
+    display:flex;
+  }
+  div > span{
+    visibility: visible;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20%;
+  }
+  .des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    align-items: flex-start;
+    text-align: start;
+    width:80%;
+  }
+  h2{
+    margin:0;
+  }
+  .top-middle > h2{
+    margin:10px;
+  }
+.icon span{
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width:1020px){
+  .pricing{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .first{
+    margin-right:10px;
+  }
+  .second{
+    margin-right: 10px;
+  }
+  
+  .des{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    align-items: flex-start;
+    text-align: start;
+    width: 80%;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20%;
+}
+.icon span{
+    font-size: 3em;
+  }
+  
+}
