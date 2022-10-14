@@ -27,7 +27,7 @@ You will model your landing page off of [this site](https://codepen.io/freeCodeC
     6. Footer with three links and a copyright
 
 ### Tips
-* Experiment with the `position:fixed` property to achieve a header that stays in place when you scroll.
+* Experiment with the `position:sticky` property to achieve a header that stays in place when you scroll.
 * The icons that you see in the desktop display are available for free at [Font Awesome](https://fontawesome.com/icons). These come in handy quite often so now is a good time to learn how to use them 😁.
 * Your buttons on your card should respond when they are moused over. Explore the `:hover` psuedo-selector to achieve this effect.
 * [YouTube videos are simple to embed](https://www.w3schools.com/html/html_youtube.asp). However, do not set `width` and `height` inline as they do in this link. Use CSS to give your `<iframe>` a relative `width` (in percentages) and a `max-width`.
