@@ -7,7 +7,7 @@ The objective of this project is to build a landing page for a product using the
 ### Requirements
 You will model your landing page off of [this site](https://codepen.io/freeCodeCamp/full/RKRbwL). You are free to create or choose your own product that you will market but it must meet the following requirements, all of which are present in the sample page:
 * The mobile and desktop layouts of your page must be identical to the mobile and desktop layouts of the sample:
-  * [Mobile Layout](./image(2).png):
+  * [Mobile Layout](./image(0).png):
     1. Header (fixed)
       * Logo
       * Menu with three links
