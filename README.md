@@ -5,8 +5,9 @@
 The objective of this project is to build a landing page for a product using the principles of _mobile-first design_. To complete this project, you will have to use media queries to create appropriate breakpoints to ensure that your landing page looks great on mobile and desktop browsers.
 
 ### Requirements
-You will model your landing page off of [this site](https://codepen.io/freeCodeCamp/full/RKRbwL). You are free to create or choose your own product that you will market but it must meet the following requirements, all of which are present in the sample page:
-* The mobile and desktop layouts of your page must be identical to the mobile and desktop layouts of the sample:
+You will model your landing page off of [this live site](https://codepen.io/freeCodeCamp/full/RKRbwL). Adjust the width of the window to see how the layout changes based on the view port. For this lab, you are free to create or choose your own product that you will market but it must meet the following requirements:
+
+* The mobile and desktop layouts of your page must be identical to the mobile and desktop layouts of the samples (See links below):
   * [Mobile Layout](./image(0).png):
     1. Header (fixed)
       * Logo
@@ -27,6 +28,7 @@ You will model your landing page off of [this site](https://codepen.io/freeCodeC
     6. Footer with three links and a copyright
 
 ### Tips
+* Do not copy the code from the sample website, as it would be detrimental to your learning. Since you only need to create two layouts (one mobile and one desktop), only create as many media queries as needed to achieve this goal. 
 * Experiment with the `position:sticky` property to achieve a header that stays in place when you scroll.
 * The icons that you see in the desktop display are available for free at [Font Awesome](https://fontawesome.com/icons). These come in handy quite often so now is a good time to learn how to use them 😁.
 * Your buttons on your card should respond when they are moused over. Explore the `:hover` psuedo-selector to achieve this effect.
