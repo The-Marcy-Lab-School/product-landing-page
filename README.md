@@ -28,7 +28,7 @@ You will model your landing page off of [this live site](https://codepen.io/free
     6. Footer with three links and a copyright
 
 ### Tips
-* Do not copy the code from the sample website, as it would be detrimental to your learning. Since you only need to create two layouts (one mobile and one desktop), only create as many media queries as needed to achieve this goal. 
+* Do not inspect or copy the code from the sample website, as it would be detrimental to your learning. Since you only need to create two layouts (one mobile and one desktop), only create as many media queries as needed to achieve this goal. 
 * Experiment with the `position:sticky` property to achieve a header that stays in place when you scroll.
 * The icons that you see in the desktop display are available for free at [Font Awesome](https://fontawesome.com/icons). These come in handy quite often so now is a good time to learn how to use them 😁.
 * Your buttons on your card should respond when they are moused over. Explore the `:hover` psuedo-selector to achieve this effect.
