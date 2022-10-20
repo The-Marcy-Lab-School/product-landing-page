@@ -10,8 +10,8 @@ You will model your landing page off of [this live site](https://codepen.io/free
 * You webpage must have two distinct layouts (one for mobile and one for desktop)! Your layouts must be identical to the sample mobile and desktop layouts linked below:
   * [Mobile Layout](./image(0).png):
     1. Header (fixed)
-      * Logo
-      * Menu with three links stacked **in a column**
+       * Logo
+       * Menu with three links stacked **in a column**
     2. Email sign-up form
     3. Three product talking points **centered on the page**
     4. Embedded YouTube Video
@@ -19,8 +19,8 @@ You will model your landing page off of [this live site](https://codepen.io/free
     6. Footer with three links and a copyright
   * [Desktop Layout](./image(1).png):
     1. Header (fixed)
-      * Logo
-      * Navbar-style menu with three links **in a row**
+       * Logo
+       * Navbar-style menu with three links **in a row**
     2. Email sign-up form
     3. Three product talking points **with font-awesome icons**
     4. Embedded YouTube Video
