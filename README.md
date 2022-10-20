@@ -5,7 +5,7 @@
 The objective of this project is to build a landing page for a product using the principles of _mobile-first design_. To complete this project, you will have to use media queries to create appropriate breakpoints to ensure that your landing page looks great on mobile and desktop browsers.
 
 ### Requirements
-You will model your landing page off of [this live site](https://codepen.io/freeCodeCamp/full/RKRbwL). Adjust the width of the window to see how the layout changes based on the view port. For this lab, you are free to create or choose your own product that you will market but it must meet the following requirements:
+You will model your landing page off of [this live site](https://codepen.io/freeCodeCamp/full/RKRbwL). Adjust the width of the window to see how the layout changes based on the view port. Scroll through the page to see how the header is fixed at the top of the screen at all times. For this lab, you are free to create or choose your own product that you will market but it must meet the following requirements:
 
 * The mobile and desktop layouts of your page must be identical to the mobile and desktop layouts of the samples (See links below):
   * [Mobile Layout](./image(0).png):
