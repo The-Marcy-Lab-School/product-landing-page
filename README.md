@@ -32,11 +32,10 @@ You will model your landing page off of [this live site](https://codepen.io/free
 * Experiment with the `position:sticky` property to achieve a header that stays in place when you scroll.
 * The icons that you see in the desktop display are available for free at [Font Awesome](https://fontawesome.com/icons). These come in handy quite often so now is a good time to learn how to use them 😁.
 * Your buttons on your card should respond when they are moused over. Explore the `:hover` psuedo-selector to achieve this effect.
-* [YouTube videos are simple to embed](https://www.w3schools.com/html/html_youtube.asp). However, do not set `width` and `height` inline as they do in this link. Use CSS to give your `<iframe>` a relative `width` (in percentages) and a `max-width`.
+* [YouTube videos are simple to embed](https://www.w3schools.com/html/html_youtube.asp). However, do not set `width` and `height` inline as they do in the live site. Use CSS to give your `<iframe>` a relative `width` (in percentages) and a `max-width`.
 * The navbar links direct the user to different sections on the page (click on "Features", "How It Works", and "Pricing" to test it out). This can be done by assigning the different sections of your page an `id` and linking to that `id` in your anchor tag. More about that [here](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/link-to-internal-sections-of-a-page-with-anchor-elements/)
 
 ### Submission Directions
-...the usual.
   1. If this is a *Practice or Pairing Lab*, fork this repo and clone down the forked repo **OR** if this is a *Lab Assignment* that was generate using Github classroom, then your repo name will end in your username. No need to fork, just clone this repo without forking it.
   2. Create your HTML and CSS files.
   3. Stage, commit, and push your changes regularly.
