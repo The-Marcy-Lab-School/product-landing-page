@@ -15,7 +15,7 @@ You will model your landing page off of [this live site](https://codepen.io/free
     2. Email sign-up form
     3. Three product talking points **centered on the page**
     4. Embedded YouTube Video
-    5. Three cards advertising three different pricing points **in a column**
+    5. Three pricing cards advertising three different pricing points **in a column**
     6. Footer with three links and a copyright
   * [Desktop Layout](./image(1).png):
     1. Header (fixed)
@@ -24,7 +24,7 @@ You will model your landing page off of [this live site](https://codepen.io/free
     2. Email sign-up form
     3. Three product talking points **with font-awesome icons**
     4. Embedded YouTube Video
-    5. Three cards **in a row**
+    5. Three pricing cards **in a row**
     6. Footer with three links and a copyright
 
 ### Tips
