@@ -8,16 +8,17 @@ The objective of this project is to build a landing page for a product using the
 You will model your landing page off of [this live site](https://codepen.io/freeCodeCamp/full/RKRbwL). Adjust the width of the window to see how the layout changes based on the view port. Scroll through the page to see how the header is fixed at the top of the screen at all times. For this lab, you are free to create or choose your own product that you will market but it must meet the following requirements:
 
 * You webpage must have two distinct layouts (one for mobile and one for desktop)! Your layouts must be identical to the sample mobile and desktop layouts linked below:
-  * [Mobile Layout](./image(0).png):
+  * [Mobile Layout](./image(0).png) (if the screen is less than 500px):
     1. Header (fixed)
        * Logo
        * Menu with three links stacked **in a column**
     2. Email sign-up form
-    3. Three product talking points **centered on the page**
+    3. Three product talking points **centered on the page** with no icons.
     4. Embedded YouTube Video
     5. Three pricing cards advertising three different pricing points **in a column**
     6. Footer with three links and a copyright
-  * [Desktop Layout](./image(1).png):
+    
+  * [Desktop Layout](./image(1).png) (if the screen width is greater than 720px):
     1. Header (fixed)
        * Logo
        * Navbar-style menu with three links **in a row**
